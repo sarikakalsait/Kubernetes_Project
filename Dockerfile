@@ -23,4 +23,4 @@ EXPOSE 80 22
 #  RUN cp -rvf shine/* .
 #  RUN rm -rf shine shine.zip
 #  CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
-#  EXPOSE 80
+#  EXPOSE 80 22
