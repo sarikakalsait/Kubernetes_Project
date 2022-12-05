@@ -2,7 +2,6 @@ FROM  centos:latest
 MAINTAINER vikashashoke@gmail.com
 RUN apt install yum
 RUN yum update -y
-RUN yum -y install wget
 RUN yum install -y httpd \
  zip\
  unzip
